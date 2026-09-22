@@ -42,35 +42,45 @@ VirtualWorker – Background service that consumes queue messages and processes 
 
 ## Frontend
 StoreFront-Deployment.yml
+
 StoreFront-LB-svc.yml
 
 StoreAdmin-Deployment.yml
+
 StoreAdmin-LB-svc.yml
 
 ## Backend
 PlaceOrder-CLusterIP-SVC.yml
+
 PlaceOrder-Deployment.yml
 
 Product-Clusterip-svc.yml
+
 Product-Deployment.yml
 
 OrderProcessing-ClusterIP-svc.yml
+
 OrderProcessing-Deployment.yml
 
 # OpenAI
 AzureOpenAI-ClutserIP-svc.yml
+
 AzureOpenAI-Deployment.yml
 
 # Data & Messaging
 OrderQueue-RabbitMQ-Configmap.yml
+
 OrderQueue-RabbitMQ-Statefulset.yml
+
 OrderQueue-RabbitMQ-svc.yml
 
 OrderDB-Mongo-Statefulset.yml
+
 OrderDB-Mongo-svc.yml
 
 # Virtual Customer & Worker
 VirtualCustomer-Deployment.yml
+
 VirtualWorker-Deployment.yml
 
 
